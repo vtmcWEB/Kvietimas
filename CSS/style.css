@@ -8,6 +8,7 @@ body {
     background-image: url("../IMG/it-akademija-cover.png");
     background-size: cover;
     background-position: center;
+	background-attachment: fixed;
     height: 100vh;
 }
 
@@ -60,5 +61,19 @@ footer i {
     100% {
         opacity: 1;
     }
+}
+
+@media (max-width: 576px) { 
+	.col-sm-12 h1{
+		font-size: 1.5em;
+	}
+	
+	.col-sm-2, .col-sm-8 h2{
+		font-size: 1.2em;
+	}
+	
+	.col-sm-2, .col-sm-8 p{
+		font-size: 1.2em;
+	}
 }
 
