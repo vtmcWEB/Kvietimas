@@ -12,6 +12,7 @@ body {
 
 main span{
     font-weight: 900;
+    letter-spacing: 5px;
 }
 
 i {
@@ -26,11 +27,6 @@ footer i {
 
 
 .first-text {
-/*
-    position: absolute;
-    left: 20%;
-    top: 5rem;
-*/
     opacity: 0;
     animation-name: topFadeOut;
     animation-fill-mode: forwards;
@@ -39,26 +35,16 @@ footer i {
 }
 
 .second-text {
-/*
-    position: absolute;
-    left: 20%;
-    top: 15rem;
-*/
     opacity: 0;
-    animation-name: topFadeOutSecond;
+    animation-name: topFadeOut;
     animation-fill-mode: forwards;
     animation-duration: 3s;
     animation-delay: 1s;
 }
 
 .third-text{
-/*
-    position: absolute;
-    left: 20%;
-    top: 25rem;
-*/
     opacity: 0;
-    animation-name: topFadeOutThird;
+    animation-name: topFadeOut;
     animation-fill-mode: forwards;
     animation-duration: 3s;
     animation-delay: 2s;
@@ -74,28 +60,3 @@ footer i {
     }
 }
 
-@keyframes topFadeOutSecond {
-    0% {
-        
-        opacity: 0;
-    }
-
-  
-    100% {
-        opacity: 1;
-    }
-}
-
-
-@keyframes topFadeOutThird {
-    0% {
-        
-        opacity: 0;
-    }
-
-    
-
-    100% {
-        opacity: 1;
-    }
-}
