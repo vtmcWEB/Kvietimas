@@ -8,7 +8,6 @@ body {
     background-image: url("../IMG/it-akademija-cover.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -23,7 +22,7 @@ i {
 
 footer i {
     font-size: 2em;
-    padding: 20px;
+    padding: 1em;
 }
 
 
