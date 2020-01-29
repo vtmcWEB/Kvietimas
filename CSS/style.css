@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    background-image: url("../IMG/it-akademija-cover.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+main span{
+    font-weight: 900;
+}
+
+i {
+    font-size: 1em;
+}
+
+footer i {
+    font-size: 2em;
+    padding: 20px;
+}
+
+
+
+.first-text {
+/*
+    position: absolute;
+    left: 20%;
+    top: 5rem;
+*/
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+
+}
+
+.second-text {
+/*
+    position: absolute;
+    left: 20%;
+    top: 15rem;
+*/
+    opacity: 0;
+    animation-name: topFadeOutSecond;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.third-text{
+/*
+    position: absolute;
+    left: 20%;
+    top: 25rem;
+*/
+    opacity: 0;
+    animation-name: topFadeOutThird;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+
+@keyframes topFadeOut {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes topFadeOutSecond {
+    0% {
+        
+        opacity: 0;
+    }
+
+  
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes topFadeOutThird {
+    0% {
+        
+        opacity: 0;
+    }
+
+    
+
+    100% {
+        opacity: 1;
+    }
+}
