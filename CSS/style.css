@@ -31,6 +31,7 @@ footer i {
     animation-name: topFadeOut;
     animation-fill-mode: forwards;
     animation-duration: 3s;
+    animation-delay: 1s;
 
 }
 
@@ -39,7 +40,7 @@ footer i {
     animation-name: topFadeOut;
     animation-fill-mode: forwards;
     animation-duration: 3s;
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 
 .third-text{
@@ -47,7 +48,7 @@ footer i {
     animation-name: topFadeOut;
     animation-fill-mode: forwards;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 
 
