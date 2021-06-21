@@ -8,11 +8,11 @@ body {
     background-image: url("../IMG/it-akademija-cover.png");
     background-size: cover;
     background-position: center;
-	background-attachment: fixed;
+    background-attachment: fixed;
     height: 100vh;
 }
 
-main span{
+main span {
     font-weight: 900;
     letter-spacing: 5px;
 }
@@ -45,7 +45,7 @@ footer i {
     animation-delay: 1s;
 }
 
-.third-text{
+.third-text {
     opacity: 0;
     animation-name: topFadeOut;
     animation-fill-mode: forwards;
@@ -53,27 +53,41 @@ footer i {
     animation-delay: 2s;
 }
 
+.fourth-text {
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-delay: 2.5s;
+}
+
+.bg-color {
+    background-color: rgba(217, 215, 215, 0.3);
+}
+
 
 @keyframes topFadeOut {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
 
-@media (max-width: 576px) { 
-	.col-sm-12 h1{
-		font-size: 1.5em;
-	}
-	
-	.col-sm-2, .col-sm-8 h2{
-		font-size: 1.2em;
-	}
-	
-	.col-sm-2, .col-sm-8 p{
-		font-size: 1.2em;
-	}
-}
+@media (max-width: 576px) {
+    .col-sm-12 h1 {
+        font-size: 1.5em;
+    }
 
+    .col-sm-2,
+    .col-sm-8 h2 {
+        font-size: 1.2em;
+    }
+
+    .col-sm-2,
+    .col-sm-8 p {
+        font-size: 1.2em;
+    }
+}
